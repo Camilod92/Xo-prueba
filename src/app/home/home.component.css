@@ -1,0 +1,26 @@
+.text-center{
+    text-align-last: center;
+}
+.margin1{
+    margin: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.margin2{
+    margin: 15px;
+    margin-top: 30px;
+}
+.padding{
+    padding-left:80px;
+    padding-right:80px;
+    font-size: 1.2rem
+}
+
+.button{
+    text-align-last: center;
+    margin-top: 30px;
+}
+.button a{
+    font-size: 2.5rem;
+    padding: 40px;
+}

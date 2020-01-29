@@ -1,0 +1,14 @@
+<mat-card>
+   
+    <mat-card-title class="text-transform">
+        {{user.name}}
+    </mat-card-title>
+    <mat-card-content>
+       <p>Year: {{user.year}}</p>
+       <p>Color: {{user.color}}</p>
+       <p>Pantone_value: {{user.pantone_value}}</p>
+    </mat-card-content>
+    <mat-card-footer>
+        <a  fxFlex mat-flat-button [ngStyle]="setMyStyles()">Color Vista Previa</a>
+    </mat-card-footer>
+</mat-card>
